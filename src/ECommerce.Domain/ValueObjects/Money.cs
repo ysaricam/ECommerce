@@ -55,7 +55,7 @@ public class Money : IEquatable<Money>
         return Amount == other.Amount && Currency == other.Currency;
     }
 
-    public override bool Equals(onject? obj)
+    public override bool Equals(object? obj)
     {
         return Equals(obj as Money);
     }
